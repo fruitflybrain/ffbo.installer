@@ -65,7 +65,7 @@ if args.gfx:
 traverse_deps(packageList)
 packageFolder = {x:os.path.join(path,config[x]['url'].split('/')[-1]) for x in packageList}
 
-sys.stdout.write("The script is downloaing following repositories:\n")
+sys.stdout.write("The script is downloading following repositories:\n")
 for k,v in packageFolder.items():
     sys.stderr.write('\tDownload \033[34m%s \033[0mto \033[32m%s\033[0m\n' % (k,v))
 if not query_yes_no('Do you want to proceed? '):
