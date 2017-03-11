@@ -1,10 +1,10 @@
 {
     "neuronlp": {
-        "deps": ["processor","neuroarch_component","visualizer_module"],
+        "deps": ["processor","neuroarch_component","visualizer_module","nlp_component"],
         "url": "https://github.com/fruitflybrain/ffbo.neuronlp"
     },
     "neurogfx":  {
-        "deps": ["processor","visualizer_module"],
+        "deps": ["processor","visualizer_module","neurokernel_component"],
         "url": "https://github.com/fruitflybrain/ffbo.neurogfx"
     },
     "processor": {
@@ -34,5 +34,17 @@
     "neurodriver": {
         "deps": ["neurokernel"],
         "url": "https://github.com/fruitflybrain/neurodriver"
-    }
+    },
+    "nlp_component": {
+        "deps": ["quepy","neuroarch_nlp"],
+        "url": "https://github.com/fruitflybrain/ffbo.nlp_component"
+    },
+    "neuroarch_nlp": {
+        "deps": ["quepy"],
+        "url": "https://github.com/fruitflybrain/ffbo.neuroarch_nlp"
+    },
+    "neurokernel_component": {
+        "deps": ["neurokernel", "neurodriver"],
+        "url": "https://github.com/fruitflybrain/neurokernel_component"
+    },
 }
