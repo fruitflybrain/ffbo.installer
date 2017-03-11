@@ -1,0 +1,38 @@
+{
+    "neuronlp": {
+        "deps": ["processor","neuroarch_component","visualizer_module"],
+        "url": "https://github.com/fruitflybrain/ffbo.neuronlp"
+    },
+    "neurogfx":  {
+        "deps": ["processor","visualizer_module"],
+        "url": "https://github.com/fruitflybrain/ffbo.neurogfx"
+    },
+    "processor": {
+      "deps": [],
+      "url": "https://github.com/fruitflybrain/ffbo.processor"
+    },
+    "neuroarch_component": {
+        "deps": ["neuroarch","quepy"],
+        "url": "https://github.com/fruitflybrain/ffbo.neuroarch_component"
+    },
+    "visualizer_module": {
+        "deps": [],
+        "url": "https://github.com/fruitflybrain/ffbo.visualizer_module"
+    },
+    "neuroarch": {
+        "deps": [],
+        "url": "https://github.com/fruitflybrain/neuroarch"
+    },
+    "quepy": {
+        "deps": [],
+        "url": "https://github.com/fruitflybrain/quepy"
+    },
+    "neurokernel": {
+        "deps": [],
+        "url": "https://github.com/fruitflybrain/neurokernel"
+    },
+    "neurodriver": {
+        "deps": ["neurokernel"],
+        "url": "https://github.com/fruitflybrain/neurodriver"
+    }
+}
