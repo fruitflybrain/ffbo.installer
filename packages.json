@@ -45,6 +45,6 @@
     },
     "neurokernel_component": {
         "deps": ["neurokernel", "neurodriver"],
-        "url": "https://github.com/fruitflybrain/neurokernel_component"
+        "url": "https://github.com/fruitflybrain/ffbo.neurokernel_component"
     }
 }
