@@ -3,7 +3,7 @@ import argparse
 import simplejson as json
 
 # load default configuration
-config = json.load(open("config.json"));
+config = json.load(open("packages.json"));
 
 def query_yes_no(msg=None):
     yes = set(['yes','y', 'ye', ''])
