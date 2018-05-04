@@ -1,6 +1,6 @@
 {
     "neuronlp": {
-        "deps": ["processor","neuroarch_component","visualizer_module","nlp_component"],
+        "deps": ["processor","neuroarch_component","nlp_component"],
         "url": "https://github.com/fruitflybrain/ffbo.neuronlp"
     },
     "neurogfx":  {
